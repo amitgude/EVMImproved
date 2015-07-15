@@ -8,6 +8,7 @@ public class EVM {
 	public void setUpElection(int numberOfCandidates) {
 		// TODO Auto-generated method stub
 		this.numberOfCandidates= numberOfCandidates;
+		controlUnit.addCandidates(numberOfCandidates);
 	}
 
 	
